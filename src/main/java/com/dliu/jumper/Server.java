@@ -11,7 +11,7 @@ public class Server {
 	public static void main(final String[] args) throws Exception {
 
 		Tomcat tomcat = new Tomcat();
-//		 tomcat.setPort((int) Math.round(Math.random() * 63000 + 2000));
+		 tomcat.setPort((int) Math.round(Math.random() * 63000 + 2000));
 		tomcat.start();
 
 		System.out.println("start node");
